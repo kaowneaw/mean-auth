@@ -1,0 +1,22 @@
+{
+  "name": "mean-back-to-font",
+  "version": "1.0.0",
+  "description": "MEAN authen app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "kaowneaw",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  }
+}
