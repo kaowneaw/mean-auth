@@ -37,7 +37,11 @@ app.use('/users', users);
 
 //Index Route
 app.get('/', (req, res) => {
-    res.send('Hello word')
+    res.send('Invalid Endpoint');
+});
+
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/index.html'));
 });
 
 //Start Server
